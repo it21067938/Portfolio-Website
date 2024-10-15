@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 import printcareLogo from "../../Assets/printcareLogo.png";
 import axcertro_logo from "../../Assets/axcertro_logo.png";
 
