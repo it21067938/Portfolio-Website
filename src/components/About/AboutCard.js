@@ -9,9 +9,9 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Thisara Dilshan </span>
-            from <span className="purple"> Kuliyapitiya, Sri Lanka.</span>
+            from Kuliyapitiya, Sri Lanka.<span className="purple"> </span>
             <br />
-            Currently, I am a 4th year undergraduate student at SLIIT,
+            Currently, I am a 4th year undergraduate student at <span className="purple">SLIIT</span>,
             <br />
             pursuing BSc (Hons) in Information Technology.
             <br />

@@ -16,7 +16,7 @@ export default function Workstack() {
           />
         </Col>
         <h3 style={{ fontSize: "1.1em", marginTop: "19px", textAlign: "left" }}>
-          During my six-month internship at{" "}
+          <br/>During my six-month internship at{" "}
           <strong className="purple">Printcare PLC </strong>, I gained
           invaluable practical experience and honed my programming skills
           essential for success in the{" "}
