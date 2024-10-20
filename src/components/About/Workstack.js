@@ -52,6 +52,23 @@ export default function Workstack() {
 
       {/* Second Internship - Axcertro */}
       <Row className="align-items-center mb-5">
+      <Col xs={12} md={3} className="mb-3 mb-md-0">
+          <div
+            style={{
+              borderRadius: "15px",
+              overflow: "hidden",
+              boxShadow: "0px 4px 15px rgba(0, 0, 0, 0.1)",
+              padding: "10px",
+            }}
+          >
+            <img
+              src={axcertro_logo}
+              alt="Axcertro Logo"
+              className="img-fluid"
+              style={{ maxHeight: "200px", margin: "auto", display: "block" }}
+            />
+          </div>
+        </Col>
         <Col xs={12} md={9}>
           <div
             style={{
@@ -76,23 +93,7 @@ export default function Workstack() {
             </p>
           </div>
         </Col>
-        <Col xs={12} md={3} className="mb-3 mb-md-0">
-          <div
-            style={{
-              borderRadius: "15px",
-              overflow: "hidden",
-              boxShadow: "0px 4px 15px rgba(0, 0, 0, 0.1)",
-              padding: "10px",
-            }}
-          >
-            <img
-              src={axcertro_logo}
-              alt="Axcertro Logo"
-              className="img-fluid"
-              style={{ maxHeight: "200px", margin: "auto", display: "block" }}
-            />
-          </div>
-        </Col>
+        
       </Row>
     </div>
   );
