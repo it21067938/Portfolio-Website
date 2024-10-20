@@ -1,60 +1,99 @@
 import React from "react";
-import { Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import printcareLogo from "../../Assets/printcareLogo.png";
 import axcertro_logo from "../../Assets/axcertro_logo.png";
 
 export default function Workstack() {
   return (
-    <div>
-      <div className="d-flex ">
-        <Col xs={12} md={2} className="tech-icons mb-3 mb-md-0">
-          <img
-            src={printcareLogo}
-            alt="Printcare Logo"
-            className="img-fluid"
-            style={{ maxHeight: "450px" }}
-          />
+    <div style={{ padding: "50px" }}>
+      {/* First Internship - Printcare */}
+      <Row className="align-items-center mb-5">
+        <Col xs={12} md={3} className="mb-3 mb-md-0">
+          <div
+            style={{
+              borderRadius: "15px",
+              overflow: "hidden",
+              boxShadow: "0px 4px 15px rgba(0, 0, 0, 0.1)",
+              padding: "10px",
+            }}
+          >
+            <img
+              src={printcareLogo}
+              alt="Printcare Logo"
+              className="img-fluid"
+              style={{ maxHeight: "200px", margin: "auto", display: "block" }}
+            />
+          </div>
         </Col>
-        <h3 style={{ fontSize: "1.1em", marginTop: "19px", textAlign: "left" }}>
-          <br/>During my six-month internship at{" "}
-          <strong className="purple">Printcare PLC </strong>, I gained
-          invaluable practical experience and honed my programming skills
-          essential for success in the{" "}
-          <strong className="purple">software engineering</strong> industry.
-          <br /> <br />I contributed to significant projects, where I developed
-          and implemented software solutions, further enhancing my technical
-          expertise and problem-solving abilities.
-        </h3>
-      </div>
+        <Col xs={12} md={9}>
+          <div
+            style={{
+              backgroundColor: "#fffb",
+              padding: "30px",
+              borderRadius: "15px",
+              boxShadow: "0px 4px 20px rgba(0, 0, 0, 0.1)",
+            }}
+          >
+            <h3 style={{ fontSize: "1.3em", fontWeight: "600", color: "#333" }}>
+              Software Engineering Internship at{" "}
+              <strong style={{ color: "#6a1b9a" }}>Printcare PLC</strong>
+            </h3>
+            <p style={{ fontSize: "1.1em", color: "#555", lineHeight: "1.8" }}>
+              During my six-month internship at Printcare PLC, I gained
+              invaluable practical experience and honed my programming skills
+              essential for success in the software engineering industry. I
+              contributed to significant projects by developing and implementing
+              software solutions, which further enhanced my technical expertise
+              and problem-solving abilities.
+            </p>
+          </div>
+        </Col>
+      </Row>
 
-      <div className="d-flex mb-5 mt-5 ">
-        <h3
-          style={{
-            fontSize: "1.1em",
-            marginTop: "25px",
-            marginLeft: "15px",
-            textAlign: "left",
-          }}
-        >
-          As a <strong className="purple">Full Stack Developer Intern</strong>{" "}
-          at <strong className="purple">Axcertro</strong>, I gained
-          comprehensive experience in both front-end and back-end development.{" "}
-          <br /> <br />I played a key role in developing multiple projects
-          utilizing Laravel for backend solutions and React for creating
-          dynamic, user-friendly interfaces.
-          <br /> <br /> This internship allowed me to enhance my technical
-          skills while collaborating with cross-functional teams to deliver
-          high-quality software solutions that met client needs.
-        </h3>
-        <Col xs={12} md={2} className="tech-icons mb-3 mb-md-0">
-          <img
-            src={axcertro_logo}
-            alt="axcertro logo"
-            className="img-fluid"
-            style={{ maxHeight: "450px" }}
-          />
+      {/* Second Internship - Axcertro */}
+      <Row className="align-items-center mb-5">
+        <Col xs={12} md={9}>
+          <div
+            style={{
+              backgroundColor: "#fffb",
+              padding: "30px",
+              borderRadius: "15px",
+              boxShadow: "0px 4px 20px rgba(0, 0, 0, 0.1)",
+            }}
+          >
+            <h3 style={{ fontSize: "1.3em", fontWeight: "600", color: "#333" }}>
+              Full Stack Developer Internship at{" "}
+              <strong style={{ color: "#6a1b9a" }}>Axcertro</strong>
+            </h3>
+            <p style={{ fontSize: "1.1em", color: "#555", lineHeight: "1.8" }}>
+              As a Full Stack Developer Intern at Axcertro, I gained
+              comprehensive experience in both front-end and back-end
+              development. I played a key role in multiple projects utilizing
+              Laravel for backend solutions and React for creating dynamic,
+              user-friendly interfaces. This experience allowed me to work
+              closely with cross-functional teams and deliver high-quality
+              software solutions.
+            </p>
+          </div>
         </Col>
-      </div>
+        <Col xs={12} md={3} className="mb-3 mb-md-0">
+          <div
+            style={{
+              borderRadius: "15px",
+              overflow: "hidden",
+              boxShadow: "0px 4px 15px rgba(0, 0, 0, 0.1)",
+              padding: "10px",
+            }}
+          >
+            <img
+              src={axcertro_logo}
+              alt="Axcertro Logo"
+              className="img-fluid"
+              style={{ maxHeight: "200px", margin: "auto", display: "block" }}
+            />
+          </div>
+        </Col>
+      </Row>
     </div>
   );
 }
