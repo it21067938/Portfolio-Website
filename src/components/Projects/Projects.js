@@ -11,6 +11,7 @@ import taskFlow from "../../Assets/Projects/taskFlow.png"
 import coconut from "../../Assets/Projects/coconut.png"
 import mealdrop from "../../Assets/Projects/mealdrop.png"
 import health from "../../Assets/Projects/health.png"
+import food_ordering_app from "../../Assets/Projects/food_ordering_app.png"
 
 
 function Projects() {
@@ -112,6 +113,16 @@ function Projects() {
               title="Mental Health Management System"
               description="This platform provides a comprehensive approach to mental health care by allowing users to read and download books on mental wellness, chat with healthcare professionals, and connect with specialists. The system aims to support users in their mental health journey through accessible resources and expert guidance. Used MERN-Stack, JS, CSS, HTML, Bootstrap, Tailwind CSS and MongoDB"
               ghLink="https://github.com/it21058882/Mental_Health_Management_System"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={food_ordering_app}
+              isBlog={false}
+              title="Food Ordering App"
+              description="This platform streamlines food ordering by allowing users to browse menus, place orders, make secure payments, and track their order status. It also includes an admin panel for managing orders and monitoring operations. Built using MongoDB, React, Node.js, JavaScript, CSS, HTML, and Tailwind CSS for an intuitive and efficient user experience."
+              ghLink="https://github.com/it21067938/Food-Delivery-App"
             />
           </Col>
         </Row>
