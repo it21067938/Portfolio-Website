@@ -12,6 +12,7 @@ import coconut from "../../Assets/Projects/coconut.png"
 import mealdrop from "../../Assets/Projects/mealdrop.png"
 import health from "../../Assets/Projects/health.png"
 import food_ordering_app from "../../Assets/Projects/food_ordering_app.png"
+import chatapp from "../../Assets/Projects/chatapp.png"
 
 
 function Projects() {
@@ -125,6 +126,17 @@ function Projects() {
               ghLink="https://github.com/it21067938/Food-Delivery-App"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatapp}
+              isBlog={false}
+              title="Chat App"
+              description="Real-time Full Stack chat app using React JS and Firebase. "
+              ghLink="https://github.com/it21067938/Chat-App"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
