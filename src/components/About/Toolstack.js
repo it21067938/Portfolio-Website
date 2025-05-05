@@ -6,6 +6,7 @@ import {
   SiWindows,
   SiGithub,
   SiAnaconda,
+  SiXampp,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -25,6 +26,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAnaconda />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiXampp />
       </Col>
     </Row>
   );
